@@ -1,5 +1,6 @@
 execute pathogen#infect() 
 set mouse=a "enalble to use mouse
+set title
 
 "set theme
 syntax on "enable syntax on
