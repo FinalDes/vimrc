@@ -1,7 +1,12 @@
 execute pathogen#infect() 
+
+"ctrlp config
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 set mouse=a "enalble to use mouse
 set title
-
+set nocompatible
+filetype indent plugin on
 "set theme
 syntax on "enable syntax on
 let g:solarized_termcolors=256
